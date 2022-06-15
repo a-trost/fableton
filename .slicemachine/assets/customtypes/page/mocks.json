@@ -1,0 +1,18 @@
+{
+  "id": "6d6f9e78-1663-439b-be19-e780603f2402",
+  "uid": "aut-quam-iste",
+  "type": "page",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Streamline value-added functionalities",
+        "spans": []
+      }
+    ],
+    "parent": {
+      "link_type": "Web",
+      "url": "http://google.com"
+    }
+  }
+}

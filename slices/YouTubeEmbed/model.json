@@ -1,0 +1,50 @@
+{
+  "id": "you_tube_embed",
+  "type": "SharedSlice",
+  "name": "YouTubeEmbed",
+  "description": "YouTubeEmbed",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "YouTubeEmbed",
+      "primary": {
+        "youtubeID": {
+          "type": "Text",
+          "config": {
+            "label": "Youtube Video ID",
+            "placeholder": "jklsdajfasdj"
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "thumbnailOverride": {
+          "type": "Image",
+          "config": {
+            "label": "Thumbnail Override",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "caption": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Caption",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,strong,em,hyperlink,rtl"
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}
